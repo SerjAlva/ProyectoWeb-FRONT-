@@ -1,0 +1,172 @@
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bienvenidos a Pety</title>
+    <link rel="shortcut icon" href="media/img/iconoPerro1.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <header>
+      <!--Inicia la navbar-->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper green">
+            <a href="#!" class="brand-logo"><img class="responsive-img" src="media/img/logo1.png" alt=""></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="registrarse.html">Registrarse</a></li>
+              <li class="active"><a href="#">Iniciar sesión</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <ul class="sidenav green" id="mobile-demo">
+        <li><a href="index.html"><span class="txtBlanco">Inicio</span></a></li>
+        <li><a href="productos.html"><span class="txtBlanco">Productos</span></a></li>
+        <li><a href="servicios.html"><span class="txtBlanco">Servicios</span></a></li>
+        <li><a href="contacto.html"><span class="txtBlanco">Contacto</span></a></li>
+        <li><a href="registrarse.html"><span class="txtBlanco">Registrate</span><i class="tiny material-icons">person</i></a></li>
+        <li class="active"><a href="#"><span class="txtBlanco">Iniciar sesión</span><i class="tiny material-icons">exit_to_app</i></a></li>
+      </ul>
+
+      <!--Termina la nav bar-->
+    </header>
+
+    <main>
+     <div class="row">
+      <br>
+      <div class="col s6">
+        <h4>¡En PetyMX contamos con lo mejor para tu mascota!</h4>
+        <br>
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="media/img/veterinaria.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3><style> h3{color: #080808;} </style> El personal más calificado</h3>
+                <h5><style> h5{color: #080808;} </style>porque se merece lo mejor</h5>
+              </div>
+            </li>
+            <li>
+              <img src="media/img/comida.png"> <!-- random image -->
+              <div class="caption left-align">
+                <h3>Comida de calidad</h3>
+                <h5>demuestrale cuanto lo quieres</h5>
+              </div>
+            </li>
+            <li>
+              <img src="media/img/juguetenuevo.jpg"> <!-- random image -->
+              <div class="caption right-align">
+                <h3>Pon a prueba sus habilidades</h3>
+                <h5>alimenta su imaginación</h5>
+              </div>
+            </li>
+            <li>
+              <img src="media/img/amorsx3.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>Dale tanto amor...</h3>
+                <h5>...como el a ti</h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <center><h5>Ingresa:</h5></center>
+      <br>
+      <div class="col s6">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="col s4"></div>
+              <div class="input-field col s4">
+                <i class="material-icons prefix">email</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Email</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="col s4"></div>
+              <div class="input-field col s4">
+                <i class="material-icons prefix">lock</i>
+                <input id="validar_contraseña" type="password" class="validate">
+                <label for="icon_prefix">Contraseña</label>
+              </div>
+            </div>
+          </form>
+        </div>
+         <div class="row">
+          <div class="col s8"></div>
+          <div class="row">
+            <div class="col s12" align="center">
+              <button class="btn waves-effect waves-light" type="submit" name="action">¡Vamos!
+                <i class="material-icons right">pets</i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </main>
+
+
+  <!--Inicia el footer-->
+  <footer class="page-footer green">
+    <div class="container">
+      <div class="row">
+        <div class="col l8 s8">
+          <center>
+            <h5 class="white-text">Siguenos en nuestras redes</h5>
+            <a title="Facebook" href="https://www.facebook.com"><img src="media/img/icons8-facebook-25.png" alt="fb"></a>
+            <a title="Twitter" href="https://www.twitter.com"><img src="media/img/icons8-twitter-25.png" alt="tw"></a>
+            <a title="Google+" href="https://plus.google.com"><img src="media/img/icons8-google-plus-25.png" alt="goo"></a>
+            <a title="LinkedIn" href="https://mx.linkedin.com/"><img src="media/img/icons8-linkedin-25.png" alt="in"></a>
+          </center>
+        </div>
+        <div class="col l4 s4">
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="sugerencias.html">Quejas y sugerencias</a></li>
+            <li><a class="grey-text text-lighten-3" href="legal.html">Legal</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col s4"><center>Cuyolandia © 2018</center></div>
+          <div class="col s4"><center>Derechos reservados</center></div>
+          <div class="col s4"><center><a title="De México para el mundo" class="grey-text text-lighten-4 right" ><img src="img/icons8-mexico-30.png" alt="México"></a></center></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Termina el footer-->
+
+
+</body>
+
+<!--Zona de scripts-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/app.js"></script><!--no existia-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+</html>
